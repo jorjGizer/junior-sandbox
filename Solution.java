@@ -1,16 +1,10 @@
-package com.javarush.task.task22.task2209;
-
-import org.w3c.dom.Node;
+//package com.javarush.task.task22.task2209;
 
 import java.io.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
-/* 
-Составить цепочку слов
-*/
-
-public class Solution {
+public class WordsGame {
     public static void main(String[] args) throws IOException {
         StringBuilder stringBuilder = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
